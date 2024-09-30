@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(51, 88, 168);
+}
+body section img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 145px;
+}
+body header h1 {
+  text-align: center;
+  color: white;
+}
+section {
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  width: 500px;
+  align-items: center;
+}
+footer {
+  text-align: center;
+  color: white;
+}

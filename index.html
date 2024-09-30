@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+      <p>
+        Ano de nascimento:
+        <input type="number" name="anoN" id="anoN" min="0" />
+      </p>
+
+      <p>
+        Qual seu gênero:
+        <input type="radio" id="m" name="sex" value="Masculino" checked />
+        <label for="m">Masculino</label>
+        <input type="radio" id="f" name="sex" value="Feminimo" />
+        <label for="f">Feminimo</label>
+      </p>
+
+      <div id="botao">
+        <input type="button" value="Verificar" id="botao" onclick="clicou()" />
+      </div>
+
+      <div id="res">
+        <h3>Preencha os dados acima para ver o resultado!</h3>
+      </div>
+      <img id="foto" src="" alt="" />
+    </section>
+    <footer><p>@heithorbarbosa047</p></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
